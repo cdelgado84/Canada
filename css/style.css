@@ -1,7 +1,32 @@
+html{
+    font-size: 62.5%; /** Reset para REMS -> 62.5% = 1rem = 10px **/
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 /* GLOBAL */
 .container{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
+}
+
+/* Defino el tamanio standard a nivel global */
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
 }
 
 /* HEADER */
@@ -10,7 +35,22 @@
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
+
+}
+
+.header-content{
+    height: 100%;  /* Se coloca para que tome todo el header*/
+    display: flex;
+    flex-direction: column; /* Por defecto lo hace a modo row (horizontal), ahora es vertical */
+    justify-content: space-between;
+
+}
+
+.header-content h1{
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left: 3rem;
 
 }
 
@@ -18,13 +58,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-}
-
-.menu h1{
-    font-style: normal;
-    text-transform: capitalize;
-    padding-left: 25px;
+    padding-top: 3rem;
 }
 
 .container h2{
@@ -32,14 +66,14 @@
     display: flex;
     align-items: ;
     text-transform: capitalize;
-    padding-left: 25px;
+    padding-left: 2.5rem;
 
 }
 .navegacion a{
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 2rem;
+    margin-right: 2rem;
 }
 
 .navegacion a:hover{
@@ -47,5 +81,5 @@
 }
 
 .navegacion a :last-of-type{
-    margin-right: 0px;
+    margin-right: 0;
 }
