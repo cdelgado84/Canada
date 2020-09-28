@@ -31,7 +31,7 @@ h4{
 
 /* HEADER */
 .site-header.inicio{
-    background-image: url(../img/header-photo.jpg);
+    background-image: url(../img/Header-Photo.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -51,6 +51,7 @@ h4{
     font-style: normal;
     text-transform: capitalize;
     padding-left: 3rem;
+    color: white;
 
 }
 
@@ -67,10 +68,11 @@ h4{
     align-items: center ;
     text-transform: capitalize;
     padding-left: 2.5rem;
+    color: white;
 
 }
 .navegacion a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 2rem;
     margin-right: 2rem;
