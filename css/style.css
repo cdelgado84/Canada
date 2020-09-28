@@ -31,7 +31,7 @@ h4{
 
 /* HEADER */
 .site-header.inicio{
-    background-image: url(../img/Header-Photo.jpg);
+    background-image: url(../img/header-photo.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
