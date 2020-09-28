@@ -51,7 +51,6 @@ h4{
     font-style: normal;
     text-transform: capitalize;
     padding-left: 3rem;
-    color: white;
 
 }
 
@@ -68,14 +67,15 @@ h4{
     align-items: center ;
     text-transform: capitalize;
     padding-left: 2.5rem;
-    color: white;
+    color: black;
 
 }
 .navegacion a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 2rem;
     margin-right: 2rem;
+    font-weight: 900;
 }
 
 .navegacion a:hover{
